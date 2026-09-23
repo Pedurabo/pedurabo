@@ -1,37 +1,27 @@
-# MITSUI&CO. Commodity Prediction Challenge
+# Hi, I'm Pedurabo 👋
 
-**Multi-target commodity price prediction** using historical data from LME, JPX, US equities, and Forex markets.
+Software Engineer & Computer Science Master’s student building practical systems across **mobile**, **full-stack**, and **data/ML**.
 
-This project develops robust models to predict **424 different targets** (single-asset returns and asset-pair differences) with a focus on accuracy and stability (Sharpe-ratio variant metric).
+I focus on real-world applications — from Android apps that solve local problems to multi-role management systems and competition-grade machine learning models.
 
-## Highlights
-- Handles 424 targets simultaneously with target-specific feature engineering
-- Advanced feature set: lags, rolling statistics, EWMA, cross-asset spreads/ratios, calendar features, interactions
-- Models: LightGBM, XGBoost, CatBoost, Random Forest, Ridge
-- Ensemble methods: averaging, weighted averaging, stacking
-- Time-series cross-validation and Optuna hyperparameter tuning
-- Competition-ready submission pipeline
+### 🔧 Tech Stack
+**Mobile:** Kotlin, Android, Jetpack Compose / XML, Firebase, Google Maps  
+**Backend / Full-stack:** Python, Flask, SQLAlchemy, REST  
+**Data & ML:** Python, LightGBM, XGBoost, deep learning, feature engineering, ensembles  
+**Other:** Svelte, Git
 
-## Tech Stack
-- Python
-- LightGBM, XGBoost, CatBoost, scikit-learn
-- Pandas, NumPy
-- Optuna (hyperparameter optimization)
-- Jupyter for exploration
+### 🚀 Featured Projects
+- **[MITSUI&CO. Commodity Prediction Challenge](https://github.com/Pedurabo/MITSUI-CO.-Commodity-Prediction-Challenge)** — Multi-target commodity price prediction (424 targets) with advanced feature engineering, gradient boosting, and ensembles.
+- **[Hospital Management System](https://github.com/Pedurabo/Hospital-Management)** — Full-stack Flask application with role-based access for admin, doctors, pharmacists, lab technicians, and patients.
+- **[PDM-Tracker](https://github.com/Pedurabo/PDM-Tracker)** — Android app supporting Uganda’s Parish Development Model (household registration, beneficiary tracking, reporting).
+- **[GOU Phone Tracking App](https://github.com/Pedurabo/GOU-Phone-Tracking-App)** — Android security app with real-time GPS tracking, remote lock/alarm, and Firebase backend.
 
-## Project Structure
+### 📈 Currently
+- Pursuing a Master’s in IT / Computer Science
+- Building and polishing projects for real impact
+- Open to software engineering roles (mobile, full-stack, or data-focused)
 
+### 🔗 Connect
+- GitHub: [github.com/Pedurabo](https://github.com/Pedurabo)
 
-## Quick Start
-```bash
-git clone https://github.com/Pedurabo/MITSUI-CO.-Commodity-Prediction-Challenge.git
-cd MITSUI-CO.-Commodity-Prediction-Challenge
-pip install -r requirements.txt
-python setup_project.py          # checks environment & creates sample data
-python run_baseline.py           # run baseline
-# or
-python run_competition.py        # full pipeline
-
-jupyter notebook notebooks/eda.ipynb
-
-
+Thanks for visiting!
