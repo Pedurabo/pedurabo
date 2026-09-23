@@ -1,4 +1,4 @@
-# Hi, I'm Pedurabo 👋
+# Hi, I'm Joshua Wabulo 👋
 
 Software Engineer & Computer Science Master’s student building practical systems across **mobile**, **full-stack**, and **data/ML**.
 
