@@ -58,6 +58,20 @@ Offline-capable incident management system centered on a native Android client w
 
 ---
 
+### [Tourism Mobile App](https://github.com/Pedurabo/Tourism-Mobile-App)
+Native Android tourism application with a substantial Kotlin/Jetpack Compose codebase covering discovery, bookings, hotels, flights, cars, landmarks, maps, notifications, profile, administrative workflows, and local Room persistence.
+
+**Stack:** Kotlin • Jetpack Compose • Material 3 • Navigation Compose • Room • ViewModel • Coil
+
+---
+
+## 📊 Additional Data / ML Work
+
+### [MITSUI & CO. Commodity Prediction Challenge](https://github.com/Pedurabo/MITSUI-CO.-Commodity-Prediction-Challenge)
+Multi-target commodity and financial-market forecasting project with feature engineering, time-series cross-validation, ensemble methods, and model pipelines spanning LightGBM, XGBoost, CatBoost, Random Forest, and Ridge regression.
+
+---
+
 ## 🛠️ Core Technologies
 
 **Android & Mobile**  
