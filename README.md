@@ -1,32 +1,99 @@
 # Hi, I'm Joshua Wabulo 👋
-**Android Developer (Kotlin / Jetpack Compose) | Python • AI/ML**  
-Building practical mobile apps that solve real problems — from AI-assisted rehab to local government tools in Uganda.
 
-MSc IT (in progress) | Uganda 🇺🇬 | Open to remote roles & freelance
+**Android & Software Engineer | Kotlin • Jetpack Compose • TypeScript • Python**
 
-### 🚀 Featured Projects
-- **[RehabPro](https://github.com/Pedurabo/Rehab-Pro-Android)** – AI-assisted Tele-Rehab Android app using CameraX + ML Kit for pose detection and exercise monitoring
-- **[PDM-Tracker](https://github.com/Pedurabo/PDM-Tracker)** – Kotlin app supporting Uganda’s Parish Development Model (household registration, beneficiary tracking, reporting)
-- **[GOU Phone Tracking](https://github.com/Pedurabo/GOU-Phone-Tracking-App)** – Real-time GPS tracking, remote lock/alarm, and anti-theft features with Firebase
-- **[SmartHome Lite](https://github.com/Pedurabo/SmartHome-Lite-Android-App)** – IoT home automation control with Kotlin + Firebase
-- **[Suit-Up](https://github.com/Pedurabo/Suit-Up-Android-App)** – Smart wardrobe & outfit recommendation app
-- **[MITSUI Commodity Prediction](https://github.com/Pedurabo/MITSUI-CO.-Commodity-Prediction-Challenge)** – Multi-target time-series prediction with advanced feature engineering & ensembles (Python)
+I build practical, production-oriented software across Android, backend systems, document intelligence, and applied AI. My current work focuses on reliable mobile experiences, evidence-grounded document analysis, offline-first architecture, and systems that fail safely when data is incomplete or ambiguous.
 
-### 🛠️ Tech Stack
-**Mobile:** Kotlin • Jetpack Compose • CameraX • Room • Coroutines • Firebase • Google Maps  
-**AI/ML & Data:** Python • ML Kit • LightGBM • XGBoost • feature engineering  
-**Backend / Other:** Firebase • REST • Git
+Based in Uganda 🇺🇬 and open to remote software engineering opportunities.
 
-### 📈 Currently
-- Completing Master’s in IT
-- Actively building and polishing production-ready Android + AI projects
-- **Open to software engineering roles** (Android / mobile, full-stack, or data/ML-focused) — remote preferred
+## 🚀 Featured Projects
 
-### 📫 Connect
-- X (Twitter): [@tobeyjos1](https://x.com/tobeyjos1)
+### [FinSight](https://github.com/Pedurabo/Finsight)
+Evidence-aware financial document analysis system for extracting, reconciling, verifying, and calculating financial information from source documents.
+
+- Supports Revenue, Operating Income, Net Income, Gross Margin, Assets, Liabilities, and Equity
+- Handles same-scope and cross-scope arithmetic
+- Reconciles original vs. restated evidence
+- Preserves provenance across embedded text and OCR
+- Normalizes compatible currencies and financial scales
+- Uses structured abstention when evidence is missing, conflicting, ambiguous, or unsafe
+- Includes unit, integration, evidence-policy, financial-evidence, and real-document regression coverage
+
+**Stack:** TypeScript • Express • document extraction • financial evidence reconciliation • automated testing
+
+---
+
+### [ContractLens](https://github.com/Pedurabo/ContractLens)
+Production-ready AI contract analysis platform focused on grounded answers, verified evidence, multi-document reasoning, clause-level comparison, and agentic document research.
+
+- PDF and DOCX ingestion
+- Large-document chunking and retrieval
+- Streaming contract Q&A
+- Independently verified citations with source highlighting
+- Multi-document comparative analysis
+- Clause-level comparison
+- Bounded multi-round research agent
+- PostgreSQL persistence with Prisma
+- Graceful provider-failure fallbacks
+
+**Stack:** Next.js 16 • React • TypeScript • Gemini API • Prisma • PostgreSQL • Tailwind CSS
+
+---
+
+### [SignalDesk](https://github.com/Pedurabo/Signaldesk)
+Offline-capable incident management system centered on a native Android client with a Kotlin/Spring Boot backend.
+
+- Jetpack Compose Android UI
+- Room-backed offline persistence
+- Offline mutation outbox
+- WorkManager background synchronization
+- Observable retry and sync state
+- Spring Boot REST API
+- PostgreSQL + Flyway
+- Signed Android release builds
+- Dockerized backend
+- Automated and physical-device testing
+
+**Stack:** Kotlin • Jetpack Compose • Room • WorkManager • Spring Boot • PostgreSQL • Flyway • Docker
+
+---
+
+### [RehabPro](https://github.com/Pedurabo/Rehab-Pro-Android)
+Android rehabilitation management project focused on therapy workflows, progress tracking, scheduling, and patient/therapist coordination.
+
+**Focus:** Android application design • rehabilitation workflows • progress tracking • notifications
+
+---
+
+## 🛠️ Core Technologies
+
+**Android & Mobile**  
+Kotlin • Jetpack Compose • Room • WorkManager • Coroutines • CameraX • Firebase • Google Maps
+
+**Backend & Web**  
+TypeScript • Express • Next.js • React • Spring Boot • REST APIs • PostgreSQL • Prisma • Flyway • Docker
+
+**AI / Data**  
+Python • Gemini API • ML Kit • LightGBM • XGBoost • retrieval pipelines • evidence verification
+
+**Engineering Practices**  
+Offline-first architecture • deterministic validation • integration testing • regression testing • provenance tracking • release hardening • Git/GitHub
+
+## 📈 Current Focus
+
+- Building production-grade Android applications
+- Hardening FinSight's financial-document analysis backend
+- Advancing SignalDesk's deployment and release pipeline
+- Building grounded AI/document-intelligence systems
+- Improving end-to-end testing, observability, and production readiness
+
+## 📫 Connect
+
 - GitHub: [github.com/Pedurabo](https://github.com/Pedurabo)
-- LinkedIn: [add your LinkedIn URL here]
-- Email: [your professional email]
-- Linktree / Portfolio: [https://linktr.ee/Tobjos](https://linktr.ee/Tobjos)
+- LinkedIn: [Joshua Wabulo](https://www.linkedin.com/in/joshua-wabulo-025894275/)
+- X: [@tobeyjos1](https://x.com/tobeyjos1)
+- Portfolio / links: [linktr.ee/Tobjos](https://linktr.ee/Tobjos)
 
-Feel free to reach out for opportunities, collaboration, or feedback!
+---
+
+I’m interested in Android, backend, full-stack, and applied AI engineering work where reliability, evidence, and real-world usability matter.
