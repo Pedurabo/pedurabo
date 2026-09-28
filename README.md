@@ -58,13 +58,6 @@ Offline-capable incident management system centered on a native Android client w
 
 ---
 
-### [RehabPro](https://github.com/Pedurabo/Rehab-Pro-Android)
-Android rehabilitation management project focused on therapy workflows, progress tracking, scheduling, and patient/therapist coordination.
-
-**Focus:** Android application design • rehabilitation workflows • progress tracking • notifications
-
----
-
 ## 🛠️ Core Technologies
 
 **Android & Mobile**  
