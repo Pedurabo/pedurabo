@@ -9,7 +9,7 @@ Based in Uganda 🇺🇬 and open to remote software engineering opportunities.
 ## 🚀 Featured Projects
 
 ### [FinSight](https://github.com/Pedurabo/Finsight)
-Evidence-aware financial document analysis system for extracting, reconciling, verifying, and calculating financial information from source documents.
+Completed evidence-aware financial document analysis system for extracting, reconciling, verifying, and calculating financial information from source documents.
 
 - Supports Revenue, Operating Income, Net Income, Gross Margin, Assets, Liabilities, and Equity
 - Handles same-scope and cross-scope arithmetic
@@ -18,6 +18,7 @@ Evidence-aware financial document analysis system for extracting, reconciling, v
 - Normalizes compatible currencies and financial scales
 - Uses structured abstention when evidence is missing, conflicting, ambiguous, or unsafe
 - Includes unit, integration, evidence-policy, financial-evidence, and real-document regression coverage
+- Includes a hash-verified Microsoft FY2024 and FY2025 real-document regression corpus
 
 **Stack:** TypeScript • Express • document extraction • financial evidence reconciliation • automated testing
 
@@ -88,11 +89,11 @@ Offline-first architecture • deterministic validation • integration testing 
 
 ## 📈 Current Focus
 
-- Building production-grade Android applications
-- Hardening FinSight's financial-document analysis backend
-- Advancing SignalDesk's deployment and release pipeline
-- Building grounded AI/document-intelligence systems
+- Building production-grade Android applications with Kotlin and Jetpack Compose
+- Advancing SignalDesk's offline-first architecture, deployment, and release pipeline
+- Building reliable backend and document-intelligence systems
 - Improving end-to-end testing, observability, and production readiness
+- Expanding applied data and machine-learning work through selected real-world projects
 
 ## 📫 Connect
 
