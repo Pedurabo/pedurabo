@@ -2,11 +2,29 @@
 
 **Android & Software Engineer | Kotlin • Jetpack Compose • TypeScript • Python**
 
-I build practical, production-oriented software across Android, backend systems, document intelligence, and applied AI. My current work focuses on reliable mobile experiences, evidence-grounded document analysis, offline-first architecture, and systems that fail safely when data is incomplete or ambiguous.
+I build practical, production-oriented software across Android, backend systems, document intelligence, and applied AI. My current work focuses on reliable mobile experiences, evidence-grounded document analysis, offline-first architecture, realtime consistency, and systems that fail safely when data is incomplete or ambiguous.
 
 Based in Uganda 🇺🇬 and open to remote software engineering opportunities.
 
 ## 🚀 Featured Projects
+
+### [Relay](https://github.com/Pedurabo/Relay)
+Real-time incident coordination Android application focused on correctness across unreliable networks, retries, reconnects, process death, and account changes.
+
+- Kotlin + Jetpack Compose native Android client
+- Room-backed incident, timeline, sequence-gap, and command persistence
+- WebSocket realtime updates with ordered event processing and active replay
+- Durable severity-command outbox with stable idempotency keys
+- Atomic delivery leases with abandoned-lease recovery after process death
+- Exponential retry backoff with cross-incident queue fairness
+- Optimistic updates that converge to authoritative server state
+- Session-bound command ownership with proven cross-account isolation
+- Background severity-aware incident notifications
+- Deterministic physical-device failure-mode validation
+
+**Stack:** Kotlin • Jetpack Compose • Room • Coroutines/Flow • OkHttp WebSockets • Node.js
+
+---
 
 ### [FinSight](https://github.com/Pedurabo/Finsight)
 Completed evidence-aware financial document analysis system for extracting, reconciling, verifying, and calculating financial information from source documents.
@@ -76,21 +94,22 @@ Multi-target commodity and financial-market forecasting project with feature eng
 ## 🛠️ Core Technologies
 
 **Android & Mobile**  
-Kotlin • Jetpack Compose • Room • WorkManager • Coroutines • CameraX • Firebase • Google Maps
+Kotlin • Jetpack Compose • Room • WorkManager • Coroutines • WebSockets • CameraX • Firebase • Google Maps
 
 **Backend & Web**  
-TypeScript • Express • Next.js • React • Spring Boot • REST APIs • PostgreSQL • Prisma • Flyway • Docker
+TypeScript • Express • Next.js • React • Spring Boot • Node.js • REST APIs • PostgreSQL • Prisma • Flyway • Docker
 
 **AI / Data**  
 Python • Gemini API • ML Kit • LightGBM • XGBoost • retrieval pipelines • evidence verification
 
 **Engineering Practices**  
-Offline-first architecture • deterministic validation • integration testing • regression testing • provenance tracking • release hardening • Git/GitHub
+Offline-first architecture • realtime consistency • durable outboxes • deterministic validation • integration testing • regression testing • provenance tracking • release hardening • Git/GitHub
 
 ## 📈 Current Focus
 
 - Building production-grade Android applications with Kotlin and Jetpack Compose
-- Advancing SignalDesk's offline-first architecture, deployment, and release pipeline
+- Engineering resilient realtime and offline-first mobile data flows
+- Hardening Relay's delivery, convergence, session-isolation, and failure-recovery architecture
 - Building reliable backend and document-intelligence systems
 - Improving end-to-end testing, observability, and production readiness
 - Expanding applied data and machine-learning work through selected real-world projects
