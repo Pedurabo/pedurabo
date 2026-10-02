@@ -1,12 +1,33 @@
 # Hi, I'm Joshua Wabulo 👋
 
-**Android & Software Engineer | Kotlin • Jetpack Compose • TypeScript • Python**
+**Android & Software Engineer | Kotlin • Jetpack Compose • Web3 • TypeScript • Python**
 
-I build practical, production-oriented software across Android, backend systems, document intelligence, and applied AI. My current work focuses on reliable mobile experiences, evidence-grounded document analysis, offline-first architecture, realtime consistency, and systems that fail safely when data is incomplete or ambiguous.
+I build practical, production-oriented software across Android, backend systems, Web3 integrations, document intelligence, and applied AI. My current work focuses on reliable mobile experiences, wallet and blockchain integrations, evidence-grounded document analysis, offline-first architecture, realtime consistency, and systems that fail safely when data is incomplete or ambiguous.
 
 Based in Uganda 🇺🇬 and open to remote software engineering opportunities.
 
 ## 🚀 Featured Projects
+
+### [ChainPay](https://github.com/Pedurabo/ChainPay)
+Native Android Web3 payment application for wallet connectivity, Sepolia ETH payments, merchant payment requests, QR-based ERC-681 checkout, and direct on-chain transaction confirmation.
+
+- Kotlin + Jetpack Compose Android client
+- Reown AppKit / WalletConnect session integration
+- Wallet connection and account-aware payment flows
+- Ethereum Mainnet ETH and USDC balance reads
+- Recent Ethereum transaction history
+- Sepolia ETH payment requests with explicit chain binding
+- Merchant receive mode with amount, recipient, and reference
+- ERC-681 payment URI generation with QR codes
+- Persistent merchant requests across navigation
+- Direct Sepolia `eth_getTransactionReceipt` verification
+- Wallet-return transaction hash capture and payment confirmation
+- Explorer links, transaction hash copy, and payment reset flows
+- Physical-device validation with SafePal
+
+**Stack:** Kotlin • Jetpack Compose • Reown AppKit / WalletConnect • Ethereum JSON-RPC • ERC-20 • ERC-681 • ZXing
+
+---
 
 ### [Relay](https://github.com/Pedurabo/Relay)
 Real-time incident coordination Android application focused on correctness across unreliable networks, retries, reconnects, process death, and account changes.
@@ -94,7 +115,10 @@ Multi-target commodity and financial-market forecasting project with feature eng
 ## 🛠️ Core Technologies
 
 **Android & Mobile**  
-Kotlin • Jetpack Compose • Room • WorkManager • Coroutines • WebSockets • CameraX • Firebase • Google Maps
+Kotlin • Jetpack Compose • Room • WorkManager • Coroutines • WebSockets • WalletConnect • CameraX • Firebase • Google Maps
+
+**Web3 / Blockchain**  
+Ethereum JSON-RPC • Reown AppKit • WalletConnect • ERC-20 • ERC-681 • wallet transactions • merchant payment flows
 
 **Backend & Web**  
 TypeScript • Express • Next.js • React • Spring Boot • Node.js • REST APIs • PostgreSQL • Prisma • Flyway • Docker
@@ -108,8 +132,8 @@ Offline-first architecture • realtime consistency • durable outboxes • det
 ## 📈 Current Focus
 
 - Building production-grade Android applications with Kotlin and Jetpack Compose
+- Integrating Web3 wallets, token balances, blockchain transactions, and crypto/stablecoin payment flows into Android apps
 - Engineering resilient realtime and offline-first mobile data flows
-- Hardening Relay's delivery, convergence, session-isolation, and failure-recovery architecture
 - Building reliable backend and document-intelligence systems
 - Improving end-to-end testing, observability, and production readiness
 - Expanding applied data and machine-learning work through selected real-world projects
@@ -123,4 +147,4 @@ Offline-first architecture • realtime consistency • durable outboxes • det
 
 ---
 
-I’m interested in Android, backend, full-stack, and applied AI engineering work where reliability, evidence, and real-world usability matter.
+I’m interested in Android, Web3/mobile, backend, full-stack, and applied AI engineering work where reliability and real-world usability matter.
