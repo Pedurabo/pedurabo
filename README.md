@@ -4,7 +4,7 @@
 
 I build practical, production-oriented software across Android, backend systems, Web3 integrations, document intelligence, and applied AI. My current work focuses on reliable mobile experiences, wallet and blockchain integrations, evidence-grounded document analysis, offline-first architecture, realtime consistency, and systems that fail safely when data is incomplete or ambiguous.
 
-Based in Uganda 🇺🇬 and open to remote software engineering opportunities.
+Computer Science professional based in Uganda 🇺🇬 and open to remote software engineering opportunities.
 
 ## 🚀 Featured Projects
 
