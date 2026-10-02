@@ -1,6 +1,6 @@
 # Hi, I'm Joshua Wabulo 👋
 
-**Android & Software Engineer | Kotlin • Jetpack Compose • Web3 • TypeScript • Python**
+**Android & Software Engineer Computer Scientist | Kotlin • Jetpack Compose • Web3 • TypeScript • Python**
 
 I build practical, production-oriented software across Android, backend systems, Web3 integrations, document intelligence, and applied AI. My current work focuses on reliable mobile experiences, wallet and blockchain integrations, evidence-grounded document analysis, offline-first architecture, realtime consistency, and systems that fail safely when data is incomplete or ambiguous.
 
