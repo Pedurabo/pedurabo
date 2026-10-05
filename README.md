@@ -1,12 +1,32 @@
 # Hi, I'm Joshua Wabulo 👋
 
-**Android & Software Engineer Computer Scientist | Kotlin • Jetpack Compose • Web3 • TypeScript • Python**
+**Android & Software Engineer | Kotlin • Jetpack Compose • Offline-first systems • TypeScript • Python**
 
-I build practical, production-oriented software across Android, backend systems, Web3 integrations, document intelligence, and applied AI. My current work focuses on reliable mobile experiences, wallet and blockchain integrations, evidence-grounded document analysis, offline-first architecture, realtime consistency, and systems that fail safely when data is incomplete or ambiguous.
+I build practical, production-oriented software with a strong current focus on native Android engineering: reliable mobile architecture, local-first data flows, camera/sensor-driven experiences, realtime consistency, secure authentication, and systems that behave predictably when networks or external services fail.
+
+I also work across backend systems, document intelligence, Web3 integrations, and applied AI.
 
 Computer Science professional based in Uganda 🇺🇬 and open to remote software engineering opportunities.
 
 ## 🚀 Featured Projects
+
+### [TeleRehab](https://github.com/Pedurabo/TeleRehab)
+Native Android tele-rehabilitation application for therapist-managed exercise programs, stable patient onboarding, guided camera sessions, adherence tracking, and local-first rehabilitation data.
+
+- Kotlin + Jetpack Compose Android client
+- Therapist and patient email/password authentication
+- Therapist-managed patient provisioning with generated temporary credentials
+- Firestore role and relationship rules with emulator-tested authorization
+- Therapist-created Knee Flexion assignments
+- Guided rehabilitation sessions with camera-based pose analysis
+- Repetition and flexion/extension threshold tracking
+- Room-backed local state and WorkManager-oriented synchronization
+- Patient history, progress comparison, and therapist adherence summaries
+- Physical-device validation on Android
+
+**Stack:** Kotlin • Jetpack Compose • Room • WorkManager • Firebase Auth • Cloud Firestore • CameraX • Hilt
+
+---
 
 ### [ChainPay](https://github.com/Pedurabo/ChainPay)
 Native Android Web3 payment application for wallet connectivity, Sepolia ETH payments, merchant payment requests, QR-based ERC-681 checkout, and direct on-chain transaction confirmation.
@@ -48,7 +68,7 @@ Real-time incident coordination Android application focused on correctness acros
 ---
 
 ### [FinSight](https://github.com/Pedurabo/Finsight)
-Completed evidence-aware financial document analysis system for extracting, reconciling, verifying, and calculating financial information from source documents.
+Evidence-aware financial document analysis project for extracting, reconciling, verifying, and calculating financial information from source documents.
 
 - Supports Revenue, Operating Income, Net Income, Gross Margin, Assets, Liabilities, and Equity
 - Handles same-scope and cross-scope arithmetic
@@ -56,15 +76,15 @@ Completed evidence-aware financial document analysis system for extracting, reco
 - Preserves provenance across embedded text and OCR
 - Normalizes compatible currencies and financial scales
 - Uses structured abstention when evidence is missing, conflicting, ambiguous, or unsafe
-- Includes unit, integration, evidence-policy, financial-evidence, and real-document regression coverage
-- Includes a hash-verified Microsoft FY2024 and FY2025 real-document regression corpus
+- Includes automated evidence and regression coverage
+- Uses real financial documents for regression-oriented validation
 
 **Stack:** TypeScript • Express • document extraction • financial evidence reconciliation • automated testing
 
 ---
 
 ### [ContractLens](https://github.com/Pedurabo/ContractLens)
-Production-ready AI contract analysis platform focused on grounded answers, verified evidence, multi-document reasoning, clause-level comparison, and agentic document research.
+AI contract analysis platform focused on grounded answers, verified evidence, multi-document reasoning, clause-level comparison, and document research.
 
 - PDF and DOCX ingestion
 - Large-document chunking and retrieval
@@ -72,11 +92,11 @@ Production-ready AI contract analysis platform focused on grounded answers, veri
 - Independently verified citations with source highlighting
 - Multi-document comparative analysis
 - Clause-level comparison
-- Bounded multi-round research agent
+- Bounded multi-round research workflows
 - PostgreSQL persistence with Prisma
 - Graceful provider-failure fallbacks
 
-**Stack:** Next.js 16 • React • TypeScript • Gemini API • Prisma • PostgreSQL • Tailwind CSS
+**Stack:** Next.js • React • TypeScript • Gemini API • Prisma • PostgreSQL • Tailwind CSS
 
 ---
 
@@ -99,7 +119,7 @@ Offline-capable incident management system centered on a native Android client w
 ---
 
 ### [Tourism Mobile App](https://github.com/Pedurabo/Tourism-Mobile-App)
-Native Android tourism application with a substantial Kotlin/Jetpack Compose codebase covering discovery, bookings, hotels, flights, cars, landmarks, maps, notifications, profile, administrative workflows, and local Room persistence.
+Native Android tourism application covering discovery, bookings, hotels, flights, cars, landmarks, maps, notifications, profile, administrative workflows, and local Room persistence.
 
 **Stack:** Kotlin • Jetpack Compose • Material 3 • Navigation Compose • Room • ViewModel • Coil
 
@@ -115,28 +135,31 @@ Multi-target commodity and financial-market forecasting project with feature eng
 ## 🛠️ Core Technologies
 
 **Android & Mobile**  
-Kotlin • Jetpack Compose • Room • WorkManager • Coroutines • WebSockets • WalletConnect • CameraX • Firebase • Google Maps
+Kotlin • Jetpack Compose • Room • WorkManager • Coroutines/Flow • CameraX • Firebase • WebSockets • WalletConnect • Google Maps
 
-**Web3 / Blockchain**  
-Ethereum JSON-RPC • Reown AppKit • WalletConnect • ERC-20 • ERC-681 • wallet transactions • merchant payment flows
+**Architecture & Reliability**  
+Offline-first design • local-first data flows • durable outboxes • idempotent synchronization • process-death recovery • deterministic validation • role-based authorization
 
 **Backend & Web**  
 TypeScript • Express • Next.js • React • Spring Boot • Node.js • REST APIs • PostgreSQL • Prisma • Flyway • Docker
+
+**Web3 / Blockchain**  
+Ethereum JSON-RPC • Reown AppKit • WalletConnect • ERC-20 • ERC-681 • wallet transactions • merchant payment flows
 
 **AI / Data**  
 Python • Gemini API • ML Kit • LightGBM • XGBoost • retrieval pipelines • evidence verification
 
 **Engineering Practices**  
-Offline-first architecture • realtime consistency • durable outboxes • deterministic validation • integration testing • regression testing • provenance tracking • release hardening • Git/GitHub
+Unit and integration testing • Firebase rules testing • regression testing • physical-device validation • provenance tracking • release hardening • Git/GitHub
 
 ## 📈 Current Focus
 
-- Building production-grade Android applications with Kotlin and Jetpack Compose
-- Integrating Web3 wallets, token balances, blockchain transactions, and crypto/stablecoin payment flows into Android apps
-- Engineering resilient realtime and offline-first mobile data flows
-- Building reliable backend and document-intelligence systems
-- Improving end-to-end testing, observability, and production readiness
-- Expanding applied data and machine-learning work through selected real-world projects
+- Becoming an exceptional production Android engineer through complete, real-world applications
+- Building local-first Android systems that remain reliable across poor connectivity and process death
+- Camera-, sensor-, and realtime-driven mobile experiences
+- Secure identity, role, and synchronization architecture
+- Deepening automated testing and physical-device validation
+- Continuing selected backend, document-intelligence, Web3, and applied-data projects
 
 ## 📫 Connect
 
@@ -147,4 +170,4 @@ Offline-first architecture • realtime consistency • durable outboxes • det
 
 ---
 
-I’m interested in Android, Web3/mobile, backend, full-stack, and applied AI engineering work where reliability and real-world usability matter.
+I’m interested in Android and software engineering work where reliability, architecture, and real-world usability matter.
