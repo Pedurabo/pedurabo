@@ -35,6 +35,7 @@ Native Android tele-rehabilitation system for therapist-managed exercise program
 - Patient-scoped sync, retryable auth-loss handling, terminal-only uploads, and multi-batch draining
 - Explicit interruption, restart recovery, concurrent-session prevention, and finish/back race protection
 - End-to-end patient and therapist regression validation on a physical Android device
+- MVP validated with unit, ViewModel, and Firestore security-rule testing; release variant builds (distribution signing pending)
 
 **Stack:** Kotlin • Jetpack Compose • Room • WorkManager • Firebase Auth • Cloud Firestore • CameraX • ML Kit • Hilt
 
