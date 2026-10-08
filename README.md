@@ -1,12 +1,12 @@
 # Hi, I'm Joshua Wabulo 👋
 
-**Software Engineer | Android | Applied AI/ML**
+**Computer Scientist & Software Engineer | Android | Applied AI/ML**
 
 I build production-oriented software with a strong current focus on native Android engineering: reliable mobile architecture, offline-first state, durable background work, realtime consistency, camera-assisted experiences, secure authentication, and systems that continue to behave correctly when networks, processes, or external services fail.
 
 My recent work spans resilient Android systems, tele-rehabilitation, Web3 payments, document intelligence, and applied AI.
 
-Computer Science graduate based in Uganda 🇺🇬, currently completing an MSc in Information Technology and open to remote software engineering opportunities.
+Computer Scientist and Software Engineer based in Uganda 🇺🇬, with a BSc in Computer Science and currently completing an MSc in Information Technology. Open to remote software engineering, computer science, Android, and applied AI/ML opportunities.
 
 ## 🚀 Featured Projects
 
