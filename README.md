@@ -4,7 +4,7 @@
 
 I'm a Computer Scientist and Software Engineer working across software systems, applied AI/ML, and native Android engineering. I build production-oriented software with a strong focus on reliable mobile architecture, offline-first state, durable background work, realtime consistency, camera-assisted experiences, secure authentication, and systems that continue to behave correctly when networks, processes, or external services fail.
 
-My recent work spans resilient Android systems, tele-rehabilitation, Web3 payments, document intelligence, and applied AI.
+My recent work spans resilient Android systems, tele-rehabilitation, Web3 payments, document intelligence, applied AI/ML, backend/data systems, and reliability-focused software architecture.
 
 Computer Scientist and Software Engineer based in Uganda 🇺🇬, with a BSc in Computer Science and currently completing an MSc in Information Technology. Open to remote software engineering, computer science, Android, and applied AI/ML opportunities.
 
@@ -114,9 +114,13 @@ Ethereum JSON-RPC • Reown AppKit • WalletConnect • ERC-20 • ERC-681 • 
 **Engineering Practices**  
 Unit and integration testing • coroutine testing • Firebase rules testing • regression testing • physical-device validation • release hardening • Git/GitHub
 
+## 🧠 Computer Science & Research
+
+My broader computer science interests include software architecture, algorithms, distributed/realtime systems, data-intensive applications, applied AI/ML, computer vision, and dependable software engineering. My MSc work explores AI-assisted mobile tele-rehabilitation, connecting research with practical Android engineering.
+
 ## 📈 Current Focus
 
-- Becoming an exceptional production Android engineer through complete, real-world applications
+- Growing as a Computer Scientist and Software Engineer while deepening production Android expertise
 - Building resilient local-first and realtime Android systems
 - Camera-assisted and sensor-driven mobile experiences
 - Session lifecycle correctness, background work, and reliable synchronization
@@ -132,4 +136,4 @@ Unit and integration testing • coroutine testing • Firebase rules testing �
 
 ---
 
-I'm interested in Android and software engineering work where reliability, architecture, and real-world usability matter.
+I'm interested in Computer Science and Software Engineering roles where strong fundamentals, reliability, architecture, applied AI, and real-world usability matter.
