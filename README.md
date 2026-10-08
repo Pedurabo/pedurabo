@@ -2,7 +2,7 @@
 
 **Computer Scientist & Software Engineer | Android | Applied AI/ML**
 
-I build production-oriented software with a strong current focus on native Android engineering: reliable mobile architecture, offline-first state, durable background work, realtime consistency, camera-assisted experiences, secure authentication, and systems that continue to behave correctly when networks, processes, or external services fail.
+I'm a Computer Scientist and Software Engineer working across software systems, applied AI/ML, and native Android engineering. I build production-oriented software with a strong focus on reliable mobile architecture, offline-first state, durable background work, realtime consistency, camera-assisted experiences, secure authentication, and systems that continue to behave correctly when networks, processes, or external services fail.
 
 My recent work spans resilient Android systems, tele-rehabilitation, Web3 payments, document intelligence, and applied AI.
 
