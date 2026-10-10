@@ -11,14 +11,16 @@ Computer Scientist and Software Engineer based in Uganda 🇺🇬, with a BSc in
 ## 🚀 Featured Projects
 
 ### [Relay](https://github.com/Pedurabo/Relay)
-Resilient realtime incident-coordination Android application designed around failure recovery and state correctness.
+Resilient realtime incident-coordination Android application designed around failure recovery, exactly-once effects, and local/server convergence.
 
-- Kotlin + Jetpack Compose native Android client
-- Room-backed incident, timeline, sequence-gap, and durable command persistence
-- Ordered WebSocket event processing with replay and reconnect recovery
-- Durable outboxes, stable idempotency keys, delivery leases, retry backoff, and process-death recovery
+- Kotlin + Jetpack Compose native Android client with Room-backed durable state
+- Ordered WebSocket event processing with durable sequence-gap detection, replay, and reconnect recovery
+- Durable handling of out-of-order incident updates and timeline events across process death
+- Production replay seams for input collection, reconciliation policy, execution, job registration, ownership, and cancellation barriers
+- Generation-safe replay-job replacement so stale coroutine cleanup cannot delete newer owners
+- Durable outboxes, stable idempotency keys, delivery leases, bounded retry backoff, and queue fairness
 - Session-bound command ownership and cross-account isolation
-- Deterministic physical-device failure-mode validation
+- Room schema migration coverage through version 14 plus deterministic unit/instrumentation regression tests
 
 **Stack:** Kotlin • Jetpack Compose • Room • Coroutines/Flow • OkHttp WebSockets • Firebase • Node.js • SQLite
 
@@ -100,7 +102,7 @@ Offline-capable incident-management system with a native Android client and Kotl
 Kotlin • Jetpack Compose • Room • WorkManager • Coroutines/Flow • CameraX • ML Kit • Firebase • WebSockets • WalletConnect
 
 **Architecture & Reliability**  
-Offline-first design • local-first state • durable outboxes • idempotent synchronization • process-death recovery • deterministic validation • role-based authorization
+Offline-first design • local-first state • durable outboxes • idempotent synchronization • process-death recovery • sequence-gap replay • cancellation barriers • generation-safe coroutine ownership • deterministic validation • role-based authorization
 
 **Backend & Web**  
 Node.js • TypeScript • Express • Next.js • React • Spring Boot • REST APIs • PostgreSQL • Prisma • Flyway • Docker
@@ -112,7 +114,7 @@ Python • Gemini API • PyTorch • scikit-learn • Transformers • NLP • 
 Ethereum JSON-RPC • Reown AppKit • WalletConnect • ERC-20 • ERC-681 • merchant payment flows
 
 **Engineering Practices**  
-Unit and integration testing • coroutine testing • Firebase rules testing • regression testing • physical-device validation • release hardening • Git/GitHub
+Unit and integration testing • coroutine testing • Room migration testing • Firebase rules testing • regression testing • physical-device validation • release hardening • Git/GitHub
 
 ## 🧠 Computer Science & Research
 
@@ -122,6 +124,7 @@ My broader computer science interests include software architecture, algorithms,
 
 - Growing as a Computer Scientist and Software Engineer while deepening production Android expertise
 - Building resilient local-first and realtime Android systems
+- Hardening coroutine ownership, cancellation, replay, and process-death recovery paths
 - Camera-assisted and sensor-driven mobile experiences
 - Session lifecycle correctness, background work, and reliable synchronization
 - Applied AI systems with verifiable evidence and deterministic reasoning
