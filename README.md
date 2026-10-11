@@ -19,13 +19,17 @@ Resilient realtime incident-coordination Android application designed around fai
 - Production replay seams for input collection, reconciliation policy, execution, job registration, ownership, and cancellation barriers
 - Generation-safe replay-job replacement so stale coroutine cleanup cannot delete newer owners
 - Durable outboxes, stable idempotency keys, delivery leases, bounded retry backoff, and queue fairness
+- Authenticated FastAPI development backend with access/refresh session lifecycle, revocation, and WebSocket command handling
+- End-to-end create/status/severity/timeline mutation convergence with authoritative Room reconciliation
+- Process-scoped realtime ownership, shared connection state, and stale-socket cleanup
+- Durable rejected-create preservation so server rejection cannot silently erase operator intent
 - Session-bound command ownership and cross-account isolation
 - Modular `core:model`, `core:session`, `core:database`, `core:realtime`, `core:notifications`, and `feature:incidents` architecture
 - Structured realtime/outbox diagnostics plus release endpoint, CI, minification, resource-shrinking, and optional signing hardening
 - Accessibility, keyboard-flow, loading/empty-state, and incident/timeline UX hardening validated on a physical Android 13 device
 - Room schema migration coverage through version 15 plus deterministic unit/instrumentation regression tests
 
-**Stack:** Kotlin • Jetpack Compose • Room • Coroutines/Flow • OkHttp WebSockets • Firebase • Node.js • SQLite
+**Stack:** Kotlin • Jetpack Compose • Room • Coroutines/Flow • OkHttp WebSockets • Firebase • Python • FastAPI • Uvicorn
 
 ---
 
@@ -127,7 +131,7 @@ My broader computer science interests include software architecture, algorithms,
 
 - Growing as a Computer Scientist and Software Engineer while deepening production Android expertise
 - Building resilient local-first and realtime Android systems
-- Advancing Relay from reliability hardening into product-quality, UX, observability, and release-readiness validation
+- Advancing Relay from the completed server-integration/reliability milestone into production backend and deployment readiness
 - Camera-assisted and sensor-driven mobile experiences
 - Session lifecycle correctness, background work, and reliable synchronization
 - Applied AI systems with verifiable evidence and deterministic reasoning
