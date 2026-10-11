@@ -29,7 +29,8 @@ Resilient realtime incident-coordination Android application designed around fai
 - Accessibility, keyboard-flow, loading/empty-state, and incident/timeline UX hardening validated on a physical Android 13 device
 - Hashed durable refresh authority with rotation, revocation, configurable expiry, restart survival, and durable expiry cleanup
 - Separate liveness/readiness endpoints, pinned backend dependencies, and a production Docker runtime proven across process/container restarts
-- Room schema migration coverage through version 15 plus deterministic unit/instrumentation regression tests
+- Account-isolated Room v16 schema with owner-scoped incident, timeline, deferred-event and command persistence; Room 15→16 migration validated against a disposable physical-device database snapshot
+- Session-generation ownership guards against stale realtime events during account changes; focused Android Room migration instrumentation and JVM regression coverage
 
 **Stack:** Kotlin • Jetpack Compose • Room • Coroutines/Flow • OkHttp WebSockets • Firebase • Python • FastAPI • Uvicorn
 
@@ -133,7 +134,7 @@ My broader computer science interests include software architecture, algorithms,
 
 - Growing as a Computer Scientist and Software Engineer while deepening production Android expertise
 - Building resilient local-first and realtime Android systems
-- Advancing Relay beyond completed server-integration and production-backend/deployment-readiness milestones into authoritative bootstrap/realtime handoff, multi-user data boundaries, and deployment operations
+- Advancing Relay's account-isolation acceptance testing (including Account A → B → A), authoritative bootstrap/realtime handoff, and deployment operations
 - Camera-assisted and sensor-driven mobile experiences
 - Session lifecycle correctness, background work, and reliable synchronization
 - Applied AI systems with verifiable evidence and deterministic reasoning
