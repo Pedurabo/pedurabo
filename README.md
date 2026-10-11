@@ -2,108 +2,88 @@
 
 **Computer Scientist & Software Engineer | Android | Applied AI/ML**
 
-I'm a Computer Scientist and Software Engineer working across software systems, applied AI/ML, and native Android engineering. I build production-oriented software with a strong focus on reliable mobile architecture, offline-first state, durable background work, realtime consistency, camera-assisted experiences, secure authentication, and systems that continue to behave correctly when networks, processes, or external services fail.
+I'm a computer scientist and software engineer based in Uganda 🇺🇬, building native Android applications, reliable backend systems, and evidence-grounded AI tools. My work spans offline-first mobile architecture, realtime synchronization, computer vision, Web3 payments, and document intelligence.
 
-My recent work spans resilient Android systems, tele-rehabilitation, Web3 payments, document intelligence, applied AI/ML, backend/data systems, and reliability-focused software architecture.
-
-Computer Scientist and Software Engineer based in Uganda 🇺🇬, with a BSc in Computer Science and currently completing an MSc in Information Technology. Open to remote software engineering, computer science, Android, and applied AI/ML opportunities.
+I hold a BSc in Computer Science and am completing an MSc in Information Technology. I'm open to remote software engineering, Android, and applied AI/ML opportunities.
 
 ## 🚀 Featured Projects
 
 ### [Relay](https://github.com/Pedurabo/Relay)
-Resilient realtime incident-coordination Android application designed around failure recovery, exactly-once effects, and local/server convergence.
+**Resilient realtime incident-coordination platform | Android & backend**
 
-- Kotlin + Jetpack Compose native Android client with Room-backed durable state
-- Ordered WebSocket event processing with durable sequence-gap detection, replay, and reconnect recovery
-- Durable handling of out-of-order incident updates and timeline events across process death
-- Production replay seams for input collection, reconciliation policy, execution, job registration, ownership, and cancellation barriers
-- Generation-safe replay-job replacement so stale coroutine cleanup cannot delete newer owners
-- Durable outboxes, stable idempotency keys, delivery leases, bounded retry backoff, and queue fairness
-- Authenticated FastAPI backend with durable SQLite state, access/refresh session lifecycle, revocation, and WebSocket command handling
-- End-to-end create/status/severity/timeline mutation convergence plus authenticated authoritative incident bootstrap and sequence-aware Room reconciliation
-- Process-scoped realtime ownership, shared connection state, and stale-socket cleanup
-- Crash-atomic accepted-command persistence plus durable rejected-create preservation so server outcomes cannot silently corrupt or erase operator intent
-- Session-bound command ownership and cross-account isolation
-- Modular `core:model`, `core:session`, `core:database`, `core:realtime`, `core:notifications`, and `feature:incidents` architecture
-- Structured realtime/outbox diagnostics plus release endpoint, CI, minification, resource-shrinking, and optional signing hardening
-- Accessibility, keyboard-flow, loading/empty-state, and incident/timeline UX hardening validated on a physical Android 13 device
-- Hashed durable refresh authority with rotation, revocation, configurable expiry, restart survival, and durable expiry cleanup
-- Separate liveness/readiness endpoints, pinned backend dependencies, and a production Docker runtime proven across process/container restarts
-- Account-isolated Room v16 schema with owner-scoped incident, timeline, deferred-event and command persistence; Room 15→16 migration validated against a disposable physical-device database snapshot
-- Session-generation ownership guards against stale realtime events during account changes; focused Android Room migration instrumentation and JVM regression coverage
+Native Android application designed to keep incident operations consistent through unreliable networks, process restarts, and account changes.
 
-**Stack:** Kotlin • Jetpack Compose • Room • Coroutines/Flow • OkHttp WebSockets • Firebase • Python • FastAPI • Uvicorn
+- Built a Kotlin and Jetpack Compose client with Room-backed local state and an authenticated FastAPI backend.
+- Engineered durable command delivery, event deduplication, sequence-gap replay, and process-death recovery.
+- Implemented account-isolated local persistence and session-aware realtime synchronization, including Room v15 → v16 migration validation against a disposable physical-device database snapshot.
+- Strengthened the application through deterministic regression tests, Android instrumentation, and physical-device verification.
 
+**Stack:** Kotlin • Jetpack Compose • Room • Coroutines/Flow • WebSockets • Python • FastAPI
 ---
 
 ### [TeleRehab](https://github.com/Pedurabo/TeleRehab)
-Native Android tele-rehabilitation system for therapist-managed exercise programs, guided camera sessions, patient progress, and reliable local-first session handling.
+**Camera-assisted Android tele-rehabilitation**
 
-- Therapist and patient email/password authentication
-- Therapist-managed patient provisioning and exercise assignment
-- Guided **Seated Knee Extension** sessions using CameraX + ML Kit pose landmarks
-- Repetition and knee-angle range tracking with therapist and patient progress views
-- Room-backed local persistence with WorkManager session synchronization
-- Patient-scoped sync, retryable auth-loss handling, terminal-only uploads, and multi-batch draining
-- Explicit interruption, restart recovery, concurrent-session prevention, and finish/back race protection
-- End-to-end patient and therapist regression validation on a physical Android device
-- MVP validated with unit, ViewModel, and Firestore security-rule testing; release variant builds (distribution signing pending)
+Android system for therapist-assigned exercises, guided patient sessions, and progress tracking.
 
-**Stack:** Kotlin • Jetpack Compose • Room • WorkManager • Firebase Auth • Cloud Firestore • CameraX • ML Kit • Hilt
+- Developed therapist and patient workflows for provisioning, exercise assignment, and progress visibility.
+- Integrated CameraX and ML Kit pose landmarks for seated knee-extension repetition and range tracking.
+- Built Room and WorkManager persistence/synchronization with patient-scoped retries and restart recovery.
+- Validated core workflows with unit, ViewModel, Firebase security-rule, and physical-device testing.
 
+**Stack:** Kotlin • Jetpack Compose • Room • WorkManager • Firebase • CameraX • ML Kit • Hilt
 ---
 
 ### [ChainPay](https://github.com/Pedurabo/ChainPay)
-Native Android Web3 payment application for wallet connectivity, Sepolia payments, transaction recovery, and merchant QR checkout.
+**Native Android Web3 payments**
 
-- Reown AppKit / WalletConnect session integration
-- Ethereum Mainnet ETH/USDC balance reads and recent transaction history
-- Sepolia ETH payment requests with persisted submitted-transaction recovery
-- Receipt polling with confirmed/reverted/timeout handling
-- Merchant Mode with ERC-681 payment URIs and QR codes
-- HTTPS-only release networking, disabled backups, sanitized errors, and debug-only diagnostics
+Wallet-connected application for Ethereum balance visibility, Sepolia payments, and merchant QR checkout.
 
-**Stack:** Kotlin • Jetpack Compose • Reown AppKit • WalletConnect • Ethereum JSON-RPC • ERC-20 • ERC-681 • ZXing
+- Integrated WalletConnect/Reown AppKit for wallet sessions and Ethereum balance/history reads.
+- Built Sepolia payment flows with persisted transaction recovery and receipt-status tracking.
+- Implemented merchant payment requests using ERC-681 URIs and QR codes.
+- Hardened release networking and diagnostics with HTTPS-only communication and sanitized error handling.
 
+**Stack:** Kotlin • Jetpack Compose • Reown AppKit • Ethereum JSON-RPC • ERC-20 • ERC-681 • ZXing
 ---
 
 ### [ContractLens](https://github.com/Pedurabo/ContractLens)
-AI contract-analysis platform focused on grounded answers and independently verifiable source evidence.
+**Evidence-grounded AI contract analysis**
 
-- PDF and DOCX ingestion
-- Streaming contract Q&A and saved chat history
-- Deterministic citation verification with source navigation/highlighting
-- Multi-document Q&A and clause-level comparison
-- Bounded document-research workflows with graceful provider-failure fallbacks
+Document intelligence platform for contract questions, clause comparisons, and verifiable citations.
+
+- Built PDF/DOCX ingestion, streaming Q&A, and saved conversation history.
+- Implemented deterministic citation checks with source navigation and highlighting.
+- Added multi-document research and clause-level comparison workflows.
+- Designed bounded analysis with graceful handling of AI-provider failures.
 
 **Stack:** Next.js • React • TypeScript • Gemini API • Prisma • PostgreSQL
-
 ---
 
 ### [FinSight](https://github.com/Pedurabo/Finsight)
-Provenance-aware financial-document QA workbench for evidence-backed numerical reasoning.
+**Provenance-aware financial-document reasoning | Active project**
 
-- Financial evidence extraction, retrieval, reconciliation, and verification
-- Deterministic calculations with period/unit consistency checks
-- Source-page citations and provenance preservation
-- Conservative abstention for missing, conflicting, ambiguous, or unsafe evidence
-- Regression evaluation using Microsoft FY2024/FY2025 financial materials
+Research and development workbench for evidence-backed numerical answers from financial documents.
 
-**Stack:** Python • TypeScript • React • retrieval • financial reasoning • evidence verification
+- Developing financial evidence extraction, retrieval, reconciliation, and verification.
+- Applying deterministic calculations with period and unit consistency checks.
+- Preserving source-page provenance and abstaining when evidence is incomplete or conflicting.
+- Evaluating workflows with Microsoft FY2024/FY2025 financial materials.
 
+**Stack:** Python • TypeScript • React • retrieval • numerical reasoning • evidence verification
 ---
 
 ### [SignalDesk](https://github.com/Pedurabo/Signaldesk)
-Offline-capable incident-management system with a native Android client and Kotlin/Spring Boot backend.
+**Offline-capable Android incident management**
 
-- Jetpack Compose Android UI with Room-backed local persistence
-- Offline mutation outbox and WorkManager synchronization
-- Observable retry and sync state
-- Spring Boot REST API with PostgreSQL + Flyway
-- Signed Android release builds, Dockerized backend, and layered testing
+Mobile and backend system for incident workflows that remain usable through connectivity changes.
+
+- Built a Jetpack Compose client backed by Room persistence.
+- Implemented an offline mutation outbox and WorkManager synchronization with observable retry state.
+- Developed a Spring Boot REST backend with PostgreSQL and Flyway migrations.
+- Added signed release builds, Dockerized backend support, and layered regression testing.
 
 **Stack:** Kotlin • Jetpack Compose • Room • WorkManager • Spring Boot • PostgreSQL • Flyway • Docker
-
 ---
 
 ## 🛠️ Core Technologies
@@ -134,7 +114,7 @@ My broader computer science interests include software architecture, algorithms,
 
 - Growing as a Computer Scientist and Software Engineer while deepening production Android expertise
 - Building resilient local-first and realtime Android systems
-- Advancing Relay's account-isolation acceptance testing (including Account A → B → A), authoritative bootstrap/realtime handoff, and deployment operations
+- Advancing secure account isolation, reliable synchronization, and deployment readiness in Relay
 - Camera-assisted and sensor-driven mobile experiences
 - Session lifecycle correctness, background work, and reliable synchronization
 - Applied AI systems with verifiable evidence and deterministic reasoning
