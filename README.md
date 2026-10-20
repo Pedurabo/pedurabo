@@ -9,14 +9,15 @@ I hold a BSc in Computer Science and am completing an MSc in Information Technol
 ## 🚀 Featured Projects
 
 ### [Jarvis Android](https://github.com/Pedurabo/Jarvis-Android)
-**Kampala-focused Android AI assistant | Active development**
+**On-device Android AI and source-aware Kampala life assistant | Active development**
 
-Native Kotlin and Jetpack Compose assistant designed around practical Kampala discovery, verified local knowledge, and consent-aware Android automation.
+Building a Kotlin/Jetpack Compose mobile assistant focused on trustworthy local information, multi-task user requests, and consent-aware phone interactions.
 
-- Built source-aware Kampala Places and Knowledge routes, with structured handling for multi-part discovery requests.
-- Added geographic reliability boundaries, model-output relevance checks, curated baseline facts, and response provenance/confidence classification.
-- Validated changes using offline Gradle JVM regression tests and Samsung physical-device testing; CDI.4.4-R passes the JVM suite, with its Samsung installation still pending.
-- Continuing to expand verified place coverage, improve general answer quality, and modernize the conversational UI.
+- Implemented source-aware Kampala Places discovery with neighborhood/category routing and verified-listing presentation, alongside a separate sourced Knowledge pathway for selected topics such as city history.
+- Developed Compositional Discovery Intelligence for interpreting combined requests about markets, food, directions, and transport while clearly separating unsupported actions from actual integrations.
+- Added geographic factual safeguards, output-integrity and relevance checks, curated baseline facts, and evidence-origin-based confidence across assistant and ViewModel layers.
+- Verified discovery and safety milestones on a physical Samsung Android device and with offline JVM regression tests. Latest CDI.4.4-R JVM suite passed; that checkpoint's Samsung installation remains pending.
+- Actively addressing general on-device model accuracy, limited local data coverage, source provenance, and modern conversational UX. Not yet a production-ready booking or navigation service.
 
 **Stack:** Kotlin • Jetpack Compose • Hilt • Coroutines • Retrofit/OkHttp • on-device AI • Node.js
 
