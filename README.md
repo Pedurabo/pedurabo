@@ -8,6 +8,20 @@ I hold a BSc in Computer Science and am completing an MSc in Information Technol
 
 ## 🚀 Featured Projects
 
+### [Jarvis Android](https://github.com/Pedurabo/Jarvis-Android)
+**Kampala-focused Android AI assistant | Active development**
+
+Native Kotlin and Jetpack Compose assistant designed around practical Kampala discovery, verified local knowledge, and consent-aware Android automation.
+
+- Built source-aware Kampala Places and Knowledge routes, with structured handling for multi-part discovery requests.
+- Added geographic reliability boundaries, model-output relevance checks, curated baseline facts, and response provenance/confidence classification.
+- Validated changes using offline Gradle JVM regression tests and Samsung physical-device testing; CDI.4.4-R passes the JVM suite, with its Samsung installation still pending.
+- Continuing to expand verified place coverage, improve general answer quality, and modernize the conversational UI.
+
+**Stack:** Kotlin • Jetpack Compose • Hilt • Coroutines • Retrofit/OkHttp • on-device AI • Node.js
+
+---
+
 ### [Relay](https://github.com/Pedurabo/Relay)
 **Resilient realtime incident-coordination platform | Android & backend**
 
