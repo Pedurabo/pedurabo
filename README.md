@@ -9,20 +9,18 @@ I hold a BSc in Computer Science and am completing an MSc in Information Technol
 ## 🚀 Featured Projects
 
 ### [Jarvis Android](https://github.com/Pedurabo/Jarvis-Android)
-**Your everyday companion for navigating life in Kampala, Uganda | Active development**
+**AI-powered Kampala Life & Uganda Visitor Assistant | Active R&D**
 
-Finding reliable local information in Kampala can mean switching between search engines, social media, maps, delivery apps, and word of mouth—often without knowing whether a price, location, or service is still accurate. For people visiting Uganda for the first time, even simple questions like *Where can I find a good restaurant? Which market sells what I need? How do I get there?* can become frustrating.
+I'm building **Jarvis**, a native Android assistant intended to make navigating everyday life in Uganda easier for residents, tourists, expatriates and first-time visitors. The vision is to combine natural conversation, source-backed places, GPS/map discovery and user-controlled actions in one practical experience.
 
-I'm building **Jarvis** to make that easier: a conversational Android assistant that helps residents and visitors explore Kampala and find the services they need, all through natural questions.
+- **Today:** A Kotlin/Jetpack Compose prototype with local-AI experiments, source-aware Kampala place information, contextual navigation, and selected Samsung-tested chat and Maps UI flows.
+- **Next:** A reusable place resolver for Kampala landmarks, schools, hospitals, government and immigration offices, embassies, telecom branches, banks, accommodation, transport, shopping and tourism.
+- **Visitor and community support:** Planned multilingual and culture-aware discovery of publicly listed hospitality, food, interpreters and community services, based on opt-in preferences rather than assumptions about ethnicity or neighbourhoods.
+- **Trust first:** Clear source attribution, honest coverage/freshness limits, privacy safeguards, and explicit consent before any future booking, payment or external action.
 
-- **Discover the city:** Find restaurants, hotels, shops, markets, places of worship, attractions, and other useful locations, with sources where available.
-- **Plan everyday activities:** Ask about food, shopping, accommodation, local landmarks, and services in a specific neighborhood.
-- **Bring tasks together:** Ask a question that involves several needs—such as finding a market, getting directions, and arranging a ride—and have Jarvis recognize each part rather than treating it as a single search.
-- **Build trust into the experience:** Show where information comes from and be clear when live prices, stock, directions, or bookings cannot yet be confirmed.
+The prototype is **not production-ready**. Broad live GPS/provider coverage, booking integrations, real-time availability and the international-community directory are **future work**, not shipped capabilities.
 
-The Android prototype already demonstrates sourced place searches, selected Kampala information, and multi-part request understanding on a Samsung phone. Ride booking, ordering, live navigation, and broader service coverage are **future goals**, not completed features.
-
-**Built with:** Kotlin • Jetpack Compose • on-device AI • Node.js
+**Stack:** Kotlin • Jetpack Compose • Room • Hilt • Coroutines • Retrofit/OkHttp • local AI experiments • JVM testing
 
 ---
 
