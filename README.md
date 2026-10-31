@@ -11,16 +11,18 @@ I hold a BSc in Computer Science and am completing an MSc in Information Technol
 ### [Jarvis Android](https://github.com/Pedurabo/Jarvis-Android)
 **AI-powered Kampala Life & Uganda Visitor Assistant | Active R&D**
 
-I'm building **Jarvis**, a native Android assistant intended to make navigating everyday life in Uganda easier for residents, tourists, expatriates and first-time visitors. The vision is to combine natural conversation, source-backed places, GPS/map discovery and user-controlled actions in one practical experience.
+I'm building **Jarvis**, a native Android assistant intended to make navigating everyday life in Uganda easier for residents, tourists, expatriates and first-time visitors. The vision combines natural-language conversation, source-aware place discovery, contextual navigation and user-controlled actions in one practical experience.
 
-- **Today:** A Kotlin/Jetpack Compose prototype with local-AI experiments, source-aware Kampala place information, contextual navigation, and selected Samsung-tested chat and Maps UI flows.
-- **Next:** A reusable place resolver for Kampala landmarks, schools, hospitals, government and immigration offices, embassies, telecom branches, banks, accommodation, transport, shopping and tourism.
-- **Visitor and community support:** Planned multilingual and culture-aware discovery of publicly listed hospitality, food, interpreters and community services, based on opt-in preferences rather than assumptions about ethnicity or neighbourhoods.
-- **Trust first:** Clear source attribution, honest coverage/freshness limits, privacy safeguards, and explicit consent before any future booking, payment or external action.
+- **Android prototype:** Kotlin/Jetpack Compose chat, local-AI experiments, source-aware Kampala place information, contextual destination handling, and selected Samsung-tested chat and Maps UI flows.
+- **Separate geographic backend:** The independently versioned [Jarvis Uganda Geographic Service](https://github.com/Pedurabo/jarvis-uganda-geo-service) is a Node.js/Express API with a metropolitan `/geo/v2` surface: locality resolution, locality-radius search, district/division area search and snapshot category listing.
+- **Integration status:** The geographic API is a separate service; its existence does **not** mean all endpoints are already integrated into the Android client. Android integration and end-to-end verification remain ongoing work.
+- **Next:** Validate locality aliases, duplicate-name disambiguation, district context and source provenance, then connect appropriate API results to the Android place resolver and user-controlled Maps handoff.
+- **Visitor and community support:** Planned opt-in discovery of publicly listed hospitality, food, language, interpreter and community services, based on verifiable self-described offerings—not assumptions about ethnicity or neighbourhoods.
+- **Trust first:** Clear OpenStreetMap/source attribution, honest coverage and freshness limits, privacy safeguards, and explicit consent before future booking, payment or external actions.
 
-The prototype is **not production-ready**. Broad live GPS/provider coverage, booking integrations, real-time availability and the international-community directory are **future work**, not shipped capabilities.
+Jarvis remains **active research and development, not a production-ready Uganda assistant**. Broad live GPS/provider coverage, comprehensive directory completeness, booking integrations, real-time availability and the international-community directory remain future work. Static OSM records do not verify that a business is currently operating.
 
-**Stack:** Kotlin • Jetpack Compose • Room • Hilt • Coroutines • Retrofit/OkHttp • local AI experiments • JVM testing
+**Stack:** Kotlin • Jetpack Compose • Room • Hilt • Coroutines • Retrofit/OkHttp • local AI experiments • Node.js • Express • OpenStreetMap-derived snapshots • JVM testing
 
 ---
 
